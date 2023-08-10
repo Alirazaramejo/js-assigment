@@ -76,3 +76,76 @@ alert(variable)
     document.write("<p>"+"Variable names are case sensitive"+"</p>")
     document.write("<p>"+"Variable names should not be JS keyword"+"</p>")
 
+//========this is math asigment===========
+//=============question 1================
+// Addition
+var num1 = 5;
+var num2 = 3;
+var sum = num1 + num2;
+document.write("Sum: " + sum + "<br>");
+
+//=============question 2================
+
+// Subtraction
+var difference = num1 - num2;
+document.write("Difference: " + difference + "<br>");
+
+// Multiplication
+var product = num1 * num2;
+document.write("Product: " + product + "<br>");
+
+// Division
+var quotient = num1 / num2;
+document.write("Quotient: " + quotient + "<br>");
+
+// Modulus
+var remainder = num1 % num2;
+document.write("Remainder: " + remainder + "<br>");
+
+//=============question 3================
+
+var variable;
+
+document.write("Value after variable declaration is: " + variable + "<br>");
+
+variable = 5;
+document.write("Initial value: " + variable + "<br>");
+
+variable++;
+document.write("Value after increment is: " + variable + "<br>");
+
+variable += 7;
+document.write("Value after addition is: " + variable + "<br>");
+
+variable--;
+document.write("Value after decrement is: " + variable + "<br>");
+
+var remainder = variable % 3;
+document.write("The remainder is: " + remainder + "<br>");
+
+//=============question 4================
+var ticketPrice = 600;
+var numberOfTickets = 5;
+var totalCost = ticketPrice * numberOfTickets;
+document.write("Total cost of buying " + numberOfTickets + " tickets: " + totalCost + " PKR<br>");
+
+//=============question 5================
+
+var num = 7;
+document.write("Multiplication table of " + num + ":<br>");
+for (var i = 1; i <= 10; i++) {
+    var result = num * i;
+    document.write(num + " x " + i + " = " + result + "<br>");
+}
+//=============question 6================
+// Celsius to Fahrenheit
+var celsiusTemp = 25;
+var fahrenheitTemp = (celsiusTemp * 9/5) + 32;
+document.write(celsiusTemp + "°C is " + fahrenheitTemp + "°F<br>");
+//=============question 7================
+// Fahrenheit to Celsius
+var fTemp = 98.6;
+var cTemp = (fTemp - 32) * 5/9;
+document.write(fTemp + "°F is " + cTemp + "°C<br>");
+//q6
+
